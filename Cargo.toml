@@ -17,3 +17,6 @@ tokio = { version = "1.38.1", features = ["macros", "rt-multi-thread"] }
 [dependencies.hyperliquid]
 git = "https://github.com/dennohpeter/hyperliquid.git"
 branch = "main"
+
+[patch.'https://github.com/dennohpeter/hyperliquid.git']
+hyperliquid = { path = "vendor/hyperliquid" }
