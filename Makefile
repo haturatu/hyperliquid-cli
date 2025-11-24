@@ -27,11 +27,11 @@ hyperliquid-src:
 
 build: hyperliquid-src
 	@echo "Building hl project..."
-	cargo build --release
+	cargo build --jobs 1 --release
 
 install: build
 	@echo "Installing hl project..."
-	cargo install --path .
+	cargo install --jobs 1 --path .
 
 clean:
 	@echo "Cleaning up..."
