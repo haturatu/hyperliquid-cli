@@ -7,14 +7,11 @@ Here is a list of the commands and the flags supported by the bot.
 ### Installation
 
 1. Install rust from [here](https://www.rust-lang.org/tools/install)
-
-1. Clone the [repo](https://github.com/ehfuzzz/hyperliquid)
-
-1. Run `cargo build --release`
-
-1. Run `cargo install --path .`
-
-1. Run `hl --help` to see the list of commands
+2. Ensure you have `make` installed (usually available by default on Linux/macOS, or via Chocolatey/MSYS2 on Windows).
+3. Clone this repository.
+4. Run `make build` to build the project.
+5. Run `make install` to install the `hl` executable.
+6. Run `hl --help` to see the list of commands
 
 ### Config
 
